@@ -11,7 +11,7 @@ utils.pip_install(utils.module_faker)
 
 user_name = spark.sql("SELECT current_user()").collect()[0][0]
 
-raw_files = "/dbfs/FileStore/{}/wm_demo/raw/data".format(user_name)
+raw_files = "/dbfs/FileStore/{}/{}/raw/data".format(user_name, utils.project_name)
 spark_raw_files = raw_files.replace("/dbfs", "")
 dbutils.fs.mkdirs(raw_files)
 
