@@ -3,7 +3,7 @@ Generates Dummy CRM Data on Databricks
 
 Generates Account and Contact data in json format
 
-To generate data please run file 'generate_data.py'
+To generate data please run file 'generate_data.py' By default it will generate 10,000 records.
 To delete the generated data please run file 'delete_generated_data.py'
 
 Account data model :-
