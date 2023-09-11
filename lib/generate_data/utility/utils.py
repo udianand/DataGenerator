@@ -1,6 +1,8 @@
 import subprocess
 import importlib
 
+
+project_name = 'generate_demo_data'
 module_crm = "crm"
 module_faker = "Faker"
 
