@@ -84,7 +84,7 @@ def generate_data(num_base_records=10):
         generate_derived_data(value, value, get_distinct_database_ids(key))
 
 
-num_records = 10_000_000_000
+num_records = 10_000_
 # num_records = 1
 start_time = time.time()
 generate_data(num_records)
